@@ -1,0 +1,17 @@
+[project]
+name = "sarah-bachelorarbeit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=4.0.0",
+    "langchain-openai>=0.3.28",
+    "marimo>=0.14.12",
+    "polars[excel]>=1.31.0",
+    "ruff>=0.12.4",
+]
+
+[tool.marimo.runtime]
+dotenv = [".env"]
+
